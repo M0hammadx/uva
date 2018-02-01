@@ -34,7 +34,7 @@ int main() {
 	//IOS;
 	//udebug
 	ll n, m, k;
-	while (cin >> n >> m && n != 0 && m != 0) {
+	while (cin >> n >> m && (n != 0 || m != 0)) {
 		cin >> k;
 		ll param[k + 1];
 		FI(k+1)
